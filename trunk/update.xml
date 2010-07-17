@@ -24,7 +24,7 @@
       <GeneralInfo>
         <Name>Israel DVB-T logos</Name>
         <Id>0ef9caed-3e62-4c2c-a1db-8b429d6bc388</Id>
-        <Author>Various</Author>
+        <Author>yoavain</Author>
         <HomePage />
         <ForumPage />
         <UpdateUrl>http://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/update.xml</UpdateUrl>
@@ -39,7 +39,7 @@
 
 </ExtensionDescription>
         <VersionDescription />
-        <DevelopmentStatus>Alpha</DevelopmentStatus>
+        <DevelopmentStatus>Stable</DevelopmentStatus>
         <OnlineLocation>http://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/IsraelLogo v.[version].MPEI</OnlineLocation>
         <ReleaseDate>2010-06-25T19:14:51</ReleaseDate>
         <Tags>logos</Tags>
