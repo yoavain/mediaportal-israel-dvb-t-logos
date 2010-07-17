@@ -1,5 +1,0 @@
-#summary MediaPortal Israeli logos for DVB-T channels
-
-= Introduction =
-
-This plugin is for anyone using _MediaPortal_ to watch _DVB-T_ channels in Israel
