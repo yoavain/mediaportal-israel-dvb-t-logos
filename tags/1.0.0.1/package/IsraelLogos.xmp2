@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.0</Version>
+  <Groups>
+    <Items>
+      <GroupItem Name="Default">
+        <DisplayName>Default</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>Default</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\logos\TV\logos\Ch 1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{613f9daa-a474-427f-b7e6-c99fb7a52d25}-Ch 1.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\TV\logos\Ch 1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\logos\TV\logos\Ch 10.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{289d2506-ec4f-4822-970f-d0cfb2aa5cc4}-Ch 10.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\TV\logos\Ch 10.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\logos\TV\logos\Ch 2.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{78b9a694-69a4-4841-ae0a-c145dd0681b9}-Ch 2.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\TV\logos\Ch 2.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\logos\TV\logos\Ch 33.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{b7604371-9ccf-47ac-ad52-5c50bb01e397}-Ch 33.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\TV\logos\Ch 33.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\logos\TV\logos\Ch 99.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{5c7869a9-c1d3-4eaf-9ed6-693bc324c083}-Ch 99.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\TV\logos\Ch 99.png</DestinationFilename>
+            </FileItem>
+          </Items>
+        </Files>
+      </GroupItem>
+    </Items>
+  </Groups>
+  <Sections>
+    <Items>
+      <SectionItem Guid="e811029c-b034-4a1a-a4d3-11740d4f697c" Name="Welcome Screen" ConditionGroup="">
+        <Params>
+          <Items>
+            <SectionParam Name="Header text">
+              <Value>Welcome to the Extension Installer for [Name]</Value>
+              <ValueType>String</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Description">
+              <Value>This will install [Name] version [Version] on your computer.
+It is recommended that you close all other applications before continuing.
+Click Next to continue or Cancel to exit Setup.</Value>
+              <ValueType>String</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Left part image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items />
+        </Actions>
+        <IncludedGroups />
+        <PanelName>Welcome Screen</PanelName>
+        <WizardButtonsEnum>NextCancel</WizardButtonsEnum>
+      </SectionItem>
+      <SectionItem Guid="229b4ce2-15d9-49c0-b979-4949bde6212a" Name="Install Section" ConditionGroup="">
+        <Params>
+          <Items>
+            <SectionParam Name="Header Title">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Header title</Description>
+            </SectionParam>
+            <SectionParam Name="Header description">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Description of section, shown in under section title</Description>
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items>
+            <ActionItem Name="InstallFiles" ActionType="InstallFiles" ConditionGroup="">
+              <Params>
+                <Items />
+              </Params>
+              <ExecuteLocation>AfterPanelShow</ExecuteLocation>
+            </ActionItem>
+          </Items>
+        </Actions>
+        <IncludedGroups />
+        <PanelName>Install Section</PanelName>
+        <WizardButtonsEnum>Next</WizardButtonsEnum>
+      </SectionItem>
+      <SectionItem Guid="4bc848ee-346f-4bd3-b065-007e55f167f1" Name="Setup Complete" ConditionGroup="">
+        <Params>
+          <Items>
+            <SectionParam Name="Header text">
+              <Value>The Extension Installer Wizard has successfully installed [Name].</Value>
+              <ValueType>String</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Left part image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Show radio buttons">
+              <Value />
+              <ValueType>Bool</ValueType>
+              <Description>Use radiobutton in place of combobox</Description>
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items />
+        </Actions>
+        <IncludedGroups />
+        <PanelName>Setup Complete</PanelName>
+        <WizardButtonsEnum>Finish</WizardButtonsEnum>
+      </SectionItem>
+    </Items>
+  </Sections>
+  <Dependencies>
+    <Items />
+  </Dependencies>
+  <GeneralInfo>
+    <Name>Israel DVB-T logos</Name>
+    <Id>0ef9caed-3e62-4c2c-a1db-8b429d6bc388</Id>
+    <Author>yoavain</Author>
+    <HomePage />
+    <ForumPage />
+    <UpdateUrl>http://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/update.xml</UpdateUrl>
+    <Version>
+      <Major>1</Major>
+      <Minor>0</Minor>
+      <Build>0</Build>
+      <Revision>1</Revision>
+    </Version>
+    <ExtensionDescription>This package will copy all logos of Israeli TV stations broacasted on DVB-T
+
+
+</ExtensionDescription>
+    <VersionDescription />
+    <DevelopmentStatus>Stable</DevelopmentStatus>
+    <OnlineLocation>http://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/IsraelLogo v.[version].MPEI</OnlineLocation>
+    <ReleaseDate>2010-06-25T19:14:51</ReleaseDate>
+    <Tags>logos</Tags>
+    <Location>..\IsraelLogos v.[Version].mpe1</Location>
+    <Params>
+      <Items>
+        <SectionParam Name="Icon">
+          <Value>IsraelFlag.png</Value>
+          <ValueType>File</ValueType>
+          <Description>The icon file of the package (jpg,png,bmp)</Description>
+        </SectionParam>
+        <SectionParam Name="Online Icon">
+          <Value />
+          <ValueType>String</ValueType>
+          <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+        </SectionParam>
+        <SectionParam Name="Configuration file">
+          <Value />
+          <ValueType>Template</ValueType>
+          <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+        </SectionParam>
+        <SectionParam Name="Online Screenshots">
+          <Value />
+          <ValueType>String</ValueType>
+          <Description>Online stored screenshot urls separated by ; </Description>
+        </SectionParam>
+        <SectionParam Name="Force to uninstall on update">
+          <Value>yes</Value>
+          <ValueType>Bool</ValueType>
+          <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+        </SectionParam>
+      </Items>
+    </Params>
+  </GeneralInfo>
+  <UniqueFileList>
+    <Items>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\logos\TV\logos\Ch 1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{613f9daa-a474-427f-b7e6-c99fb7a52d25}-Ch 1.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\TV\logos\Ch 1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\logos\TV\logos\Ch 10.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{289d2506-ec4f-4822-970f-d0cfb2aa5cc4}-Ch 10.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\TV\logos\Ch 10.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\logos\TV\logos\Ch 2.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{78b9a694-69a4-4841-ae0a-c145dd0681b9}-Ch 2.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\TV\logos\Ch 2.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\logos\TV\logos\Ch 33.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{b7604371-9ccf-47ac-ad52-5c50bb01e397}-Ch 33.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\TV\logos\Ch 33.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\logos\TV\logos\Ch 99.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{5c7869a9-c1d3-4eaf-9ed6-693bc324c083}-Ch 99.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\TV\logos\Ch 99.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="true" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>IsraelFlag.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{3afc6cbd-ac42-41a3-a555-ece88b01dabd}-IsraelFlag.png</ZipFileName>
+        <DestinationFilename />
+      </FileItem>
+    </Items>
+  </UniqueFileList>
+  <ProjectSettings>
+    <FolderGroups>
+      <FolderGroup InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName />
+        <ZipFileName>Installer{CopyFile}\{c4cadc2f-90cd-41ad-9a15-44cf34f3c353}-</ZipFileName>
+        <DestinationFilename>%Thumbs%</DestinationFilename>
+        <Folder>..\logos</Folder>
+        <Group>Default</Group>
+        <Recursive>true</Recursive>
+      </FolderGroup>
+    </FolderGroups>
+    <ProjectFilename>Z:\Dev\mediaportal-israel-dvb-t-logos\package\IsraelLogos.xmp2</ProjectFilename>
+    <UpdatePath1>..\update.xml</UpdatePath1>
+    <UpdatePath2 />
+    <UpdatePath3 />
+  </ProjectSettings>
+</PackageClass>
