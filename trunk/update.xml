@@ -40,7 +40,7 @@
 </ExtensionDescription>
         <VersionDescription />
         <DevelopmentStatus>Stable</DevelopmentStatus>
-        <OnlineLocation>http://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/IsraelLogo v.[version].MPEI</OnlineLocation>
+        <OnlineLocation>http://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/IsraelLogo v.[version].mpe1</OnlineLocation>
         <ReleaseDate>2010-06-25T19:14:51</ReleaseDate>
         <Tags>logos</Tags>
         <Location>..\IsraelLogos v.[Version].mpe1</Location>
@@ -125,7 +125,7 @@ Updated forum url.
 Updated online screenshots.
 Updated online icon</VersionDescription>
         <DevelopmentStatus>Stable</DevelopmentStatus>
-        <OnlineLocation>http://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/IsraelLogo v.[version].MPEI</OnlineLocation>
+        <OnlineLocation>http://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/IsraelLogo v.[version].mpe1</OnlineLocation>
         <ReleaseDate>2010-06-25T19:14:51</ReleaseDate>
         <Tags>logos</Tags>
         <Location>..\IsraelLogos v.[Version].mpe1</Location>
@@ -150,6 +150,7 @@ Updated online icon</VersionDescription>
             </SectionParam>
             <SectionParam Name="Online Screenshots">
               <Value>https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image1s.png
+;
 https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image2s.png</Value>
               <ValueType>String</ValueType>
               <Description>Online stored screenshot urls separated by ; </Description>
