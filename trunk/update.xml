@@ -132,7 +132,7 @@ Updated online icon</VersionDescription>
         <Params>
           <Items>
             <SectionParam Name="Icon">
-              <Value>C:\Dev\mediaportal-israel-dvb-t-logos\package\IsraelFlag.png</Value>
+              <Value>Z:\Dev\mediaportal-israel-dvb-t-logos\package\IsraelFlag.png</Value>
               <ValueType>File</ValueType>
               <Description>The icon file of the package (jpg,png,bmp)</Description>
             </SectionParam>
