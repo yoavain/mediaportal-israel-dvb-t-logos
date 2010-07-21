@@ -203,6 +203,7 @@ Updated online icon</VersionDescription>
         </SectionParam>
         <SectionParam Name="Online Screenshots">
           <Value>https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image1s.png
+;
 https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image2s.png</Value>
           <ValueType>String</ValueType>
           <Description>Online stored screenshot urls separated by ; </Description>
@@ -256,7 +257,7 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>IsraelFlag.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{e405c8a9-1a53-4c7e-ba71-d4b7a8cc09fe}-IsraelFlag.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{db417da1-a913-446f-b702-09ed91139802}-IsraelFlag.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
     </Items>
