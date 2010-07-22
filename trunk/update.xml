@@ -25,8 +25,8 @@
         <Name>Israel DVB-T logos</Name>
         <Id>0ef9caed-3e62-4c2c-a1db-8b429d6bc388</Id>
         <Author>yoavain</Author>
-        <HomePage />
-        <ForumPage />
+        <HomePage>http://code.google.com/p/mediaportal-israel-dvb-t-logos/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-50/israeli-dvb-t-tv-channels-logos-plugin-84605/</ForumPage>
         <UpdateUrl>http://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/update.xml</UpdateUrl>
         <Version>
           <Major>1</Major>
@@ -34,22 +34,25 @@
           <Build>0</Build>
           <Revision>1</Revision>
         </Version>
-        <ExtensionDescription>This package will copy all logos of Israeli TV stations broacasted on DVB-T</ExtensionDescription>
+        <ExtensionDescription>This package will copy all logos of Israeli TV stations broacasted on DVB-T
+
+
+</ExtensionDescription>
         <VersionDescription />
         <DevelopmentStatus>Stable</DevelopmentStatus>
-        <OnlineLocation>http://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/IsraelLogos v.[version].mpe1</OnlineLocation>
+        <OnlineLocation>https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/IsraelLogos v.1.0.0.1.mpe1</OnlineLocation>
         <ReleaseDate>2010-06-25T19:14:51</ReleaseDate>
         <Tags>logos</Tags>
         <Location>..\IsraelLogos v.[Version].mpe1</Location>
         <Params>
           <Items>
             <SectionParam Name="Icon">
-              <Value>Z:\Dev\mediaportal-israel-dvb-t-logos\package\IsraelFlag.png</Value>
+              <Value>C:\DEV_HOME\mediaportal-israel-dvb-t-logos\package\IsraelFlag.png</Value>
               <ValueType>File</ValueType>
               <Description>The icon file of the package (jpg,png,bmp)</Description>
             </SectionParam>
             <SectionParam Name="Online Icon">
-              <Value />
+              <Value>http://code.google.com/p/mediaportal-israel-dvb-t-logos/logo?cct=1279396079</Value>
               <ValueType>String</ValueType>
               <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
             </SectionParam>
@@ -61,12 +64,14 @@
  If have .dll extension used like MP plugin configuration</Description>
             </SectionParam>
             <SectionParam Name="Online Screenshots">
-              <Value />
+              <Value>https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image1s.png
+;
+https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image2s.png</Value>
               <ValueType>String</ValueType>
               <Description>Online stored screenshot urls separated by ; </Description>
             </SectionParam>
             <SectionParam Name="Force to uninstall on update">
-              <Value>yes</Value>
+              <Value>NO</Value>
               <ValueType>Bool</ValueType>
               <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
             </SectionParam>
@@ -113,20 +118,20 @@
           <Build>0</Build>
           <Revision>2</Revision>
         </Version>
-        <ExtensionDescription>This package will copy all logos of Israeli TV stations broacasted on DVB-T</ExtensionDescription>
-        <VersionDescription>Updates homepage.
-Updated forum url.
-Updated online screenshots.
-Updated online icon</VersionDescription>
+        <ExtensionDescription>This package will copy all logos of Israeli TV stations broacasted on DVB-T
+
+
+</ExtensionDescription>
+        <VersionDescription>Updates homepage. Updated forum url. Updated online screenshots. Updated online icon</VersionDescription>
         <DevelopmentStatus>Stable</DevelopmentStatus>
-        <OnlineLocation>http://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/IsraelLogos v.[version].mpe1</OnlineLocation>
+        <OnlineLocation>https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/IsraelLogos v.1.0.0.2.mpe1</OnlineLocation>
         <ReleaseDate>2010-06-25T19:14:51</ReleaseDate>
         <Tags>logos</Tags>
         <Location>..\IsraelLogos v.[Version].mpe1</Location>
         <Params>
           <Items>
             <SectionParam Name="Icon">
-              <Value>Z:\Dev\mediaportal-israel-dvb-t-logos\package\IsraelFlag.png</Value>
+              <Value>C:\DEV_HOME\mediaportal-israel-dvb-t-logos\package\IsraelFlag.png</Value>
               <ValueType>File</ValueType>
               <Description>The icon file of the package (jpg,png,bmp)</Description>
             </SectionParam>

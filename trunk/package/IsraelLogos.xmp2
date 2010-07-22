@@ -173,12 +173,9 @@ Click Next to continue or Cancel to exit Setup.</Value>
 
 
 </ExtensionDescription>
-    <VersionDescription>Updates homepage.
-Updated forum url.
-Updated online screenshots.
-Updated online icon</VersionDescription>
+    <VersionDescription />
     <DevelopmentStatus>Stable</DevelopmentStatus>
-    <OnlineLocation>http://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/IsraelLogos v.[version].mpe1</OnlineLocation>
+    <OnlineLocation>https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/IsraelLogos v.1.0.0.2.mpe1</OnlineLocation>
     <ReleaseDate>2010-06-25T19:14:51</ReleaseDate>
     <Tags>logos</Tags>
     <Location>..\IsraelLogos v.[Version].mpe1</Location>
@@ -257,7 +254,7 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>IsraelFlag.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{bef2f9fb-d5bd-4913-8cb9-45b30233eeb3}-IsraelFlag.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{bdd6f45e-6f30-489b-9189-c9c8dc4024d1}-IsraelFlag.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
     </Items>
@@ -275,7 +272,7 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
         <Recursive>true</Recursive>
       </FolderGroup>
     </FolderGroups>
-    <ProjectFilename>Z:\Dev\mediaportal-israel-dvb-t-logos\package\IsraelLogos.xmp2</ProjectFilename>
+    <ProjectFilename>C:\DEV_HOME\mediaportal-israel-dvb-t-logos\package\IsraelLogos.xmp2</ProjectFilename>
     <UpdatePath1>..\update.xml</UpdatePath1>
     <UpdatePath2 />
     <UpdatePath3 />
