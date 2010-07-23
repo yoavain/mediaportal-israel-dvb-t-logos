@@ -3,45 +3,137 @@
   <Version>2.0</Version>
   <Groups>
     <Items>
-      <GroupItem Name="Default">
-        <DisplayName>Default</DisplayName>
+      <GroupItem Name="Channel 1">
+        <ParentGroup />
+        <DisplayName>Channel 1</DisplayName>
         <DefaulChecked>true</DefaulChecked>
-        <Description>Default</Description>
+        <Description>Channel 1</Description>
         <Files>
           <Items>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
               <Param1 />
               <UpdateOption>AlwaysOverwrite</UpdateOption>
               <LocalFileName>..\logos\TV\logos\Ch 1.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{613f9daa-a474-427f-b7e6-c99fb7a52d25}-Ch 1.png</ZipFileName>
+              <ZipFileName>Installer{CopyFile}\{3f7b233b-39bf-46ab-9cf5-502e8c4c346c}-Ch 1.png</ZipFileName>
               <DestinationFilename>%Thumbs%\TV\logos\Ch 1.png</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+          </Items>
+        </Files>
+      </GroupItem>
+      <GroupItem Name="Channel 2 black">
+        <ParentGroup />
+        <DisplayName>Channel 2 black</DisplayName>
+        <DefaulChecked>false</DefaulChecked>
+        <Description>Channel 2 black</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
               <Param1 />
-              <UpdateOption>AlwaysOverwrite</UpdateOption>
-              <LocalFileName>..\logos\TV\logos\Ch 10.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{289d2506-ec4f-4822-970f-d0cfb2aa5cc4}-Ch 10.png</ZipFileName>
-              <DestinationFilename>%Thumbs%\TV\logos\Ch 10.png</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>AlwaysOverwrite</UpdateOption>
-              <LocalFileName>..\logos\TV\logos\Ch 2.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{78b9a694-69a4-4841-ae0a-c145dd0681b9}-Ch 2.png</ZipFileName>
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\logos\TV\logos\Ch 2 black.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{f188f492-a46a-4651-ad69-5b47918e7278}-Ch 2 black.png</ZipFileName>
               <DestinationFilename>%Thumbs%\TV\logos\Ch 2.png</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+          </Items>
+        </Files>
+      </GroupItem>
+      <GroupItem Name="Channel 2 yellow">
+        <ParentGroup />
+        <DisplayName>Channel 2 yellow</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>Channel 2 yellow</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\logos\TV\logos\Ch 2 yellow.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{33c608b5-947b-43e3-bb4f-c9ecbbbb074e}-Ch 2 yellow.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\TV\logos\Ch 2.png</DestinationFilename>
+            </FileItem>
+          </Items>
+        </Files>
+      </GroupItem>
+      <GroupItem Name="Channel 10 red">
+        <ParentGroup />
+        <DisplayName>Channel 10 red</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>Channel 10 red</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
               <Param1 />
               <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\logos\TV\logos\Ch 10 red.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{cdd3747a-c07d-4728-b435-7e6f80224eef}-Ch 10 red.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\TV\logos\Ch 10.png</DestinationFilename>
+            </FileItem>
+          </Items>
+        </Files>
+      </GroupItem>
+      <GroupItem Name="Channel 10 blue">
+        <ParentGroup />
+        <DisplayName>Channel 10 blue</DisplayName>
+        <DefaulChecked>false</DefaulChecked>
+        <Description>Channel 10 blue</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\logos\TV\logos\Ch 10 blue.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{090897b6-b3bb-48ce-b5fe-c82692dfbd08}-Ch 10 blue.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\TV\logos\Ch 10.png</DestinationFilename>
+            </FileItem>
+          </Items>
+        </Files>
+      </GroupItem>
+      <GroupItem Name="Channel 33">
+        <ParentGroup />
+        <DisplayName>Channel 33</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>Channel 33</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>..\logos\TV\logos\Ch 33.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{b7604371-9ccf-47ac-ad52-5c50bb01e397}-Ch 33.png</ZipFileName>
+              <ZipFileName>Installer{CopyFile}\{56049e6b-1a85-4df5-8de6-a741d0bb33c7}-Ch 33.png</ZipFileName>
               <DestinationFilename>%Thumbs%\TV\logos\Ch 33.png</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+          </Items>
+        </Files>
+      </GroupItem>
+      <GroupItem Name="Channel 99 text">
+        <ParentGroup />
+        <DisplayName>Channel 99 text</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>Channel 99 text</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
               <Param1 />
-              <UpdateOption>AlwaysOverwrite</UpdateOption>
-              <LocalFileName>..\logos\TV\logos\Ch 99.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{5c7869a9-c1d3-4eaf-9ed6-693bc324c083}-Ch 99.png</ZipFileName>
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\logos\TV\logos\Ch 99 text.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{1ef08a8f-96a0-45a2-bf01-beabf66595df}-Ch 99 text.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\TV\logos\Ch 99.png</DestinationFilename>
+            </FileItem>
+          </Items>
+        </Files>
+      </GroupItem>
+      <GroupItem Name="Channel 99 number">
+        <ParentGroup />
+        <DisplayName>Channel 99 number</DisplayName>
+        <DefaulChecked>false</DefaulChecked>
+        <Description>Channel 99 number</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\logos\TV\logos\Ch 99 number.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{20efdd88-312e-422d-a090-c1154e88b1bd}-Ch 99 number.png</ZipFileName>
               <DestinationFilename>%Thumbs%\TV\logos\Ch 99.png</DestinationFilename>
             </FileItem>
           </Items>
@@ -67,7 +159,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
               <Description />
             </SectionParam>
             <SectionParam Name="Left part image">
-              <Value />
+              <Value>test4.png</Value>
               <ValueType>File</ValueType>
               <Description />
             </SectionParam>
@@ -84,6 +176,141 @@ Click Next to continue or Cancel to exit Setup.</Value>
         <IncludedGroups />
         <PanelName>Welcome Screen</PanelName>
         <WizardButtonsEnum>NextCancel</WizardButtonsEnum>
+      </SectionItem>
+      <SectionItem Guid="9ad84a21-de45-45e4-b220-f0cb216fa340" Name="Channel 2" ConditionGroup="">
+        <Params>
+          <Items>
+            <SectionParam Name="Header Title">
+              <Value>Preffered channel 2 logo</Value>
+              <ValueType>String</ValueType>
+              <Description>Header title</Description>
+            </SectionParam>
+            <SectionParam Name="Header description">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Description of section, shown in under section title</Description>
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+            <SectionParam Name="First option Image file">
+              <Value>..\logos\TV\logos\Ch 2 yellow.png</Value>
+              <ValueType>File</ValueType>
+              <Description>The file of first option. Idicated size (225,127)</Description>
+            </SectionParam>
+            <SectionParam Name="Second option Image file">
+              <Value>..\logos\TV\logos\Ch 2 black.png</Value>
+              <ValueType>File</ValueType>
+              <Description>The file of first option. Idicated size (225,127)</Description>
+            </SectionParam>
+            <SectionParam Name="Description ">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Description of this operation</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items />
+        </Actions>
+        <IncludedGroups>
+          <string>Channel 2 yellow</string>
+          <string>Channel 2 black</string>
+        </IncludedGroups>
+        <PanelName>Image Radio button Section</PanelName>
+        <WizardButtonsEnum>BackNextCancel</WizardButtonsEnum>
+      </SectionItem>
+      <SectionItem Guid="f1312460-5422-4cec-9b21-aba832cb428d" Name="Channel 10" ConditionGroup="">
+        <Params>
+          <Items>
+            <SectionParam Name="Header Title">
+              <Value>Choose channel 10 logo</Value>
+              <ValueType>String</ValueType>
+              <Description>Header title</Description>
+            </SectionParam>
+            <SectionParam Name="Header description">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Description of section, shown in under section title</Description>
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+            <SectionParam Name="First option Image file">
+              <Value>..\logos\TV\logos\Ch 10 red.png</Value>
+              <ValueType>File</ValueType>
+              <Description>The file of first option. Idicated size (225,127)</Description>
+            </SectionParam>
+            <SectionParam Name="Second option Image file">
+              <Value>..\logos\TV\logos\Ch 10 blue.png</Value>
+              <ValueType>File</ValueType>
+              <Description>The file of first option. Idicated size (225,127)</Description>
+            </SectionParam>
+            <SectionParam Name="Description ">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Description of this operation</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items />
+        </Actions>
+        <IncludedGroups>
+          <string>Channel 10 red</string>
+          <string>Channel 10 blue</string>
+        </IncludedGroups>
+        <PanelName>Image Radio button Section</PanelName>
+        <WizardButtonsEnum>BackNextCancel</WizardButtonsEnum>
+      </SectionItem>
+      <SectionItem Guid="bd7de488-301f-4f1c-9fa1-54c3c623f4b1" Name="Channel 99" ConditionGroup="">
+        <Params>
+          <Items>
+            <SectionParam Name="Header Title">
+              <Value>Choose channel 99 logo</Value>
+              <ValueType>String</ValueType>
+              <Description>Header title</Description>
+            </SectionParam>
+            <SectionParam Name="Header description">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Description of section, shown in under section title</Description>
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+            <SectionParam Name="First option Image file">
+              <Value>..\logos\TV\logos\Ch 99 text.png</Value>
+              <ValueType>File</ValueType>
+              <Description>The file of first option. Idicated size (225,127)</Description>
+            </SectionParam>
+            <SectionParam Name="Second option Image file">
+              <Value>..\logos\TV\logos\Ch 99 number.png</Value>
+              <ValueType>File</ValueType>
+              <Description>The file of first option. Idicated size (225,127)</Description>
+            </SectionParam>
+            <SectionParam Name="Description ">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Description of this operation</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items />
+        </Actions>
+        <IncludedGroups>
+          <string>Channel 99 text</string>
+          <string>Channel 99 number</string>
+        </IncludedGroups>
+        <PanelName>Image Radio button Section</PanelName>
+        <WizardButtonsEnum>BackNextCancel</WizardButtonsEnum>
       </SectionItem>
       <SectionItem Guid="229b4ce2-15d9-49c0-b979-4949bde6212a" Name="Install Section" ConditionGroup="">
         <Params>
@@ -115,7 +342,16 @@ Click Next to continue or Cancel to exit Setup.</Value>
             </ActionItem>
           </Items>
         </Actions>
-        <IncludedGroups />
+        <IncludedGroups>
+          <string>Channel 1</string>
+          <string>Channel 2 black</string>
+          <string>Channel 2 yellow</string>
+          <string>Channel 10 red</string>
+          <string>Channel 10 blue</string>
+          <string>Channel 33</string>
+          <string>Channel 99 text</string>
+          <string>Channel 99 number</string>
+        </IncludedGroups>
         <PanelName>Install Section</PanelName>
         <WizardButtonsEnum>Next</WizardButtonsEnum>
       </SectionItem>
@@ -128,7 +364,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
               <Description />
             </SectionParam>
             <SectionParam Name="Left part image">
-              <Value />
+              <Value>test3.png</Value>
               <ValueType>File</ValueType>
               <Description />
             </SectionParam>
@@ -167,15 +403,15 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <Major>1</Major>
       <Minor>0</Minor>
       <Build>0</Build>
-      <Revision>2</Revision>
+      <Revision>3</Revision>
     </Version>
     <ExtensionDescription>This package will copy all logos of Israeli TV stations broacasted on DVB-T
 
 
 </ExtensionDescription>
-    <VersionDescription />
+    <VersionDescription>Added options for channels 2,10,99</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
-    <OnlineLocation>https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/IsraelLogos v.1.0.0.2.mpe1</OnlineLocation>
+    <OnlineLocation>https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/IsraelLogos v.1.0.0.3.mpe1</OnlineLocation>
     <ReleaseDate>2010-06-25T19:14:51</ReleaseDate>
     <Tags>logos</Tags>
     <Location>..\IsraelLogos v.[Version].mpe1</Location>
@@ -215,64 +451,88 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
   </GeneralInfo>
   <UniqueFileList>
     <Items>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
         <Param1 />
         <UpdateOption>AlwaysOverwrite</UpdateOption>
         <LocalFileName>..\logos\TV\logos\Ch 1.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{613f9daa-a474-427f-b7e6-c99fb7a52d25}-Ch 1.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{3f7b233b-39bf-46ab-9cf5-502e8c4c346c}-Ch 1.png</ZipFileName>
         <DestinationFilename>%Thumbs%\TV\logos\Ch 1.png</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="true" Modified="true">
         <Param1 />
-        <UpdateOption>AlwaysOverwrite</UpdateOption>
-        <LocalFileName>..\logos\TV\logos\Ch 10.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{289d2506-ec4f-4822-970f-d0cfb2aa5cc4}-Ch 10.png</ZipFileName>
-        <DestinationFilename>%Thumbs%\TV\logos\Ch 10.png</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>AlwaysOverwrite</UpdateOption>
-        <LocalFileName>..\logos\TV\logos\Ch 2.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{78b9a694-69a4-4841-ae0a-c145dd0681b9}-Ch 2.png</ZipFileName>
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\logos\TV\logos\Ch 2 black.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{f188f492-a46a-4651-ad69-5b47918e7278}-Ch 2 black.png</ZipFileName>
         <DestinationFilename>%Thumbs%\TV\logos\Ch 2.png</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="true" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\logos\TV\logos\Ch 2 yellow.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{33c608b5-947b-43e3-bb4f-c9ecbbbb074e}-Ch 2 yellow.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\TV\logos\Ch 2.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="true" Modified="true">
         <Param1 />
         <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\logos\TV\logos\Ch 10 red.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{cdd3747a-c07d-4728-b435-7e6f80224eef}-Ch 10 red.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\TV\logos\Ch 10.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="true" Modified="true">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\logos\TV\logos\Ch 10 blue.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{090897b6-b3bb-48ce-b5fe-c82692dfbd08}-Ch 10 blue.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\TV\logos\Ch 10.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>..\logos\TV\logos\Ch 33.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{b7604371-9ccf-47ac-ad52-5c50bb01e397}-Ch 33.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{56049e6b-1a85-4df5-8de6-a741d0bb33c7}-Ch 33.png</ZipFileName>
         <DestinationFilename>%Thumbs%\TV\logos\Ch 33.png</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="true" Modified="true">
         <Param1 />
-        <UpdateOption>AlwaysOverwrite</UpdateOption>
-        <LocalFileName>..\logos\TV\logos\Ch 99.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{5c7869a9-c1d3-4eaf-9ed6-693bc324c083}-Ch 99.png</ZipFileName>
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\logos\TV\logos\Ch 99 text.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{1ef08a8f-96a0-45a2-bf01-beabf66595df}-Ch 99 text.png</ZipFileName>
         <DestinationFilename>%Thumbs%\TV\logos\Ch 99.png</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="true" Modified="true">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\logos\TV\logos\Ch 99 number.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{20efdd88-312e-422d-a090-c1154e88b1bd}-Ch 99 number.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\TV\logos\Ch 99.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="true" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>test4.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{81658a08-d331-4ba5-b8fb-2d3b502dea59}-test4.png</ZipFileName>
+        <DestinationFilename />
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="true" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>test3.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{1fc9e6eb-5b4d-4e3d-8ed3-0f9bcd388034}-test3.png</ZipFileName>
+        <DestinationFilename />
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="true" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>IsraelFlag.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{bdd6f45e-6f30-489b-9189-c9c8dc4024d1}-IsraelFlag.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{cdb3ecae-865b-4f66-b848-e80f61315711}-IsraelFlag.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
     </Items>
   </UniqueFileList>
   <ProjectSettings>
-    <FolderGroups>
-      <FolderGroup InstallType="CopyFile" SystemFile="false" Modified="true">
-        <Param1 />
-        <UpdateOption>AlwaysOverwrite</UpdateOption>
-        <LocalFileName />
-        <ZipFileName>Installer{CopyFile}\{c4cadc2f-90cd-41ad-9a15-44cf34f3c353}-</ZipFileName>
-        <DestinationFilename>%Thumbs%</DestinationFilename>
-        <Folder>..\logos</Folder>
-        <Group>Default</Group>
-        <Recursive>true</Recursive>
-      </FolderGroup>
-    </FolderGroups>
-    <ProjectFilename>C:\DEV_HOME\mediaportal-israel-dvb-t-logos\package\IsraelLogos.xmp2</ProjectFilename>
+    <FolderGroups />
+    <ProjectFilename>C:\Dev\mediaportal-israel-dvb-t-logos\package\IsraelLogos.xmp2</ProjectFilename>
     <UpdatePath1>..\update.xml</UpdatePath1>
     <UpdatePath2 />
     <UpdatePath3 />
