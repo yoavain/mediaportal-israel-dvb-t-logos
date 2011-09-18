@@ -390,8 +390,31 @@ Click Next to continue or Cancel to exit Setup.</Value>
     </Items>
   </Sections>
   <Dependencies>
-    <Items />
+    <Items>
+      <DependencyItem>
+        <Type>MediaPortal</Type>
+        <Id />
+        <MinVersion>
+          <Major>1</Major>
+          <Minor>1</Minor>
+          <Build>6</Build>
+          <Revision>27644</Revision>
+        </MinVersion>
+        <MaxVersion>
+          <Major>1</Major>
+          <Minor>1</Minor>
+          <Build>6</Build>
+          <Revision>27644</Revision>
+        </MaxVersion>
+        <WarnOnly>false</WarnOnly>
+        <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+        <Name>MediaPortal</Name>
+      </DependencyItem>
+    </Items>
   </Dependencies>
+  <PluginDependencies>
+    <Items />
+  </PluginDependencies>
   <GeneralInfo>
     <Name>Israel DVB-T logos</Name>
     <Id>0ef9caed-3e62-4c2c-a1db-8b429d6bc388</Id>
@@ -401,15 +424,15 @@ Click Next to continue or Cancel to exit Setup.</Value>
     <UpdateUrl>http://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/update.xml</UpdateUrl>
     <Version>
       <Major>1</Major>
-      <Minor>0</Minor>
+      <Minor>1</Minor>
       <Build>0</Build>
-      <Revision>3</Revision>
+      <Revision>4</Revision>
     </Version>
     <ExtensionDescription>This package will copy all logos of Israeli TV stations broacasted on DVB-T
 
 
 </ExtensionDescription>
-    <VersionDescription>Added options for channels 2,10,99</VersionDescription>
+    <VersionDescription>Built for MediaPortal 1.2.0 RC</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
     <OnlineLocation>https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/IsraelLogos v.1.0.0.3.mpe1</OnlineLocation>
     <ReleaseDate>2010-06-25T19:14:51</ReleaseDate>
@@ -511,30 +534,31 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>test4.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{81658a08-d331-4ba5-b8fb-2d3b502dea59}-test4.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{704a9b90-74dd-4465-9b6e-c70ce9bf61b3}-test4.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="true" Modified="true">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>test3.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{1fc9e6eb-5b4d-4e3d-8ed3-0f9bcd388034}-test3.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{ce649e0e-a921-4236-930e-75a8d4b13f03}-test3.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="true" Modified="true">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>IsraelFlag.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{cdb3ecae-865b-4f66-b848-e80f61315711}-IsraelFlag.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{814c3c1e-2709-40c9-9c04-1173709bd631}-IsraelFlag.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
     </Items>
   </UniqueFileList>
   <ProjectSettings>
     <FolderGroups />
-    <ProjectFilename>C:\Dev\mediaportal-israel-dvb-t-logos\package\IsraelLogos.xmp2</ProjectFilename>
+    <ProjectFilename>IsraelLogos.xmp2</ProjectFilename>
     <UpdatePath1>..\update.xml</UpdatePath1>
     <UpdatePath2 />
     <UpdatePath3 />
   </ProjectSettings>
+  <IsSkin>false</IsSkin>
 </PackageClass>
