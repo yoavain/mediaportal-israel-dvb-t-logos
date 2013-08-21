@@ -513,10 +513,10 @@ Click Next to continue or Cancel to exit Setup.</Value>
 </ExtensionDescription>
     <VersionDescription>Added Channel 23</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
-    <OnlineLocation>https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/IsraelLogos v.1.0.0.3.mpe1</OnlineLocation>
+    <OnlineLocation>https://mediaportal-israel-dvb-t-logos.googlecode.com/files/IsraelLogos-{VERSION}.MPE1</OnlineLocation>
     <ReleaseDate>2010-06-25T19:14:51</ReleaseDate>
     <Tags>logos</Tags>
-    <Location>..\IsraelLogos v.[Version].mpe1</Location>
+    <Location>..\IsraelLogos-MAJOR.MINOR.BUILD.REVISION.MPE1</Location>
     <Params>
       <Items>
         <SectionParam Name="Icon">
@@ -635,7 +635,7 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
   <ProjectSettings>
     <FolderGroups />
     <ProjectFilename>IsraelLogos.xmp2</ProjectFilename>
-    <UpdatePath1>..\update.xml</UpdatePath1>
+    <UpdatePath1>update-{VERSION}.xml</UpdatePath1>
     <UpdatePath2 />
     <UpdatePath3 />
   </ProjectSettings>
