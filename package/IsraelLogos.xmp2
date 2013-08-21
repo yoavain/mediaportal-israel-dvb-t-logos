@@ -516,7 +516,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
     <OnlineLocation>https://mediaportal-israel-dvb-t-logos.googlecode.com/files/IsraelLogos-{VERSION}.MPE1</OnlineLocation>
     <ReleaseDate>2010-06-25T19:14:51</ReleaseDate>
     <Tags>logos</Tags>
-    <Location>..\IsraelLogos-MAJOR.MINOR.BUILD.REVISION.MPE1</Location>
+    <Location>..\builds\IsraelLogos-MAJOR.MINOR.BUILD.REVISION.MPE1</Location>
     <Params>
       <Items>
         <SectionParam Name="Icon">

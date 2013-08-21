@@ -47,5 +47,5 @@ FOR /F "tokens=1-4 delims=." %%i IN ("%version%") DO (
 )
 
 :: Rename MPE1
-if exist "..\IsraelLogos-%major%.%minor%.%build%.%revision%.MPE1" del "..\IsraelLogos-%major%.%minor%.%build%.%revision%.MPE1"
-rename ..\IsraelLogos-MAJOR.MINOR.BUILD.REVISION.MPE1 "IsraelLogos-%major%.%minor%.%build%.%revision%.MPE1"
+if exist "..\builds\IsraelLogos-%major%.%minor%.%build%.%revision%.MPE1" del "..\builds\IsraelLogos-%major%.%minor%.%build%.%revision%.MPE1"
+rename ..\builds\IsraelLogos-MAJOR.MINOR.BUILD.REVISION.MPE1 "IsraelLogos-%major%.%minor%.%build%.%revision%.MPE1"
