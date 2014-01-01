@@ -21,7 +21,7 @@ if "%programfiles(x86)%XXX"=="XXX" goto 32BIT
 :CONT
 
 :: set version
-SET version=1.1.1.0
+SET version=1.2.0.0
 
 :: Temp xmp2 file
 copy IsraelLogos.xmp2 IsraelLogosTemp.xmp2
