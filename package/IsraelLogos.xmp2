@@ -23,7 +23,7 @@
       <GroupItem Name="Channel 2">
         <ParentGroup />
         <DisplayName>Channel 2</DisplayName>
-        <DefaulChecked>false</DefaulChecked>
+        <DefaulChecked>true</DefaulChecked>
         <Description>Channel 2</Description>
         <Files>
           <Items>
@@ -40,7 +40,7 @@
       <GroupItem Name="Channel 10">
         <ParentGroup />
         <DisplayName>Channel 10</DisplayName>
-        <DefaulChecked>false</DefaulChecked>
+        <DefaulChecked>true</DefaulChecked>
         <Description>Channel 10</Description>
         <Files>
           <Items>
@@ -74,7 +74,7 @@
       <GroupItem Name="Channel 99">
         <ParentGroup />
         <DisplayName>Channel 99</DisplayName>
-        <DefaulChecked>false</DefaulChecked>
+        <DefaulChecked>true</DefaulChecked>
         <Description>Channel 99</Description>
         <Files>
           <Items>
@@ -91,7 +91,7 @@
       <GroupItem Name="Channel 23">
         <ParentGroup />
         <DisplayName>Channel 23</DisplayName>
-        <DefaulChecked>false</DefaulChecked>
+        <DefaulChecked>true</DefaulChecked>
         <Description>Channel 23</Description>
         <Files>
           <Items>
