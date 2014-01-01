@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Mappings>
+  <!-- ******************************************************************** -->
+  <TV>
+    <Channel>
+      <Item Name="Ch 1">
+        <Satellite />
+      </Item>
+      <File>Ch 1.png</File>
+    </Channel>
+    <Channel>
+      <Item Name="Ch 2">
+        <Satellite />
+      </Item>
+      <File>Ch 2.png</File>
+    </Channel>
+    <Channel>
+      <Item Name="Ch 10">
+        <Satellite />
+      </Item>
+      <File>Ch 10.png</File>
+    </Channel>
+    <Channel>
+      <Item Name="Ch 23">
+        <Satellite />
+      </Item>
+      <File>Ch 23.png</File>
+    </Channel>
+    <Channel>
+      <Item Name="Ch 33">
+        <Satellite />
+      </Item>
+      <File>Ch 33.png</File>
+    </Channel>
+    <Channel>
+      <Item Name="Ch 99">
+        <Satellite />
+      </Item>
+      <File>Ch 99.png</File>
+    </Channel>
+  </TV>
+  <!-- ******************************************************************** -->
+  <Radio>
+  </Radio>
+  <!-- ******************************************************************** -->
+  </Mappings>
