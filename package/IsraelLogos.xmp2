@@ -270,7 +270,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
     <Params>
       <Items>
         <SectionParam Name="Icon">
-          <Value>..\Logo.png</Value>
+          <Value>logo.png</Value>
           <ValueType>File</ValueType>
           <Description>The icon file of the package (jpg,png,bmp)</Description>
         </SectionParam>
@@ -348,8 +348,8 @@ https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/Ima
       <FileItem InstallType="CopyFile" SystemFile="true" Modified="true">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Logo.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{d7801902-fc03-4428-aeca-1419a124f442}-Logo.png</ZipFileName>
+        <LocalFileName>logo.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{69c9acc7-938e-4ea6-9e14-608885a7942d}-logo.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
     </Items>
