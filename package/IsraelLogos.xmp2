@@ -248,24 +248,23 @@ Click Next to continue or Cancel to exit Setup.</Value>
     <Name>Israel DVB-T logos</Name>
     <Id>0ef9caed-3e62-4c2c-a1db-8b429d6bc388</Id>
     <Author>yoavain</Author>
-    <HomePage>http://code.google.com/p/mediaportal-israel-dvb-t-logos/</HomePage>
+    <HomePage>https://github.com/yoavain/mediaportal-israel-dvb-t-logos</HomePage>
     <ForumPage>http://forum.team-mediaportal.com/skins-50/israeli-dvb-t-tv-channels-logos-plugin-84605/</ForumPage>
-    <UpdateUrl>http://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/update.xml</UpdateUrl>
+    <UpdateUrl>https://raw.githubusercontent.com/yoavain/mediaportal-israel-dvb-t-logos/master/update.xml</UpdateUrl>
     <Version>
       <Major>1</Major>
       <Minor>2</Minor>
-      <Build>0</Build>
+      <Build>1</Build>
       <Revision>0</Revision>
     </Version>
     <ExtensionDescription>This package will copy all logos of Israeli TV stations broacasted on DVB-T
 
 
 </ExtensionDescription>
-    <VersionDescription>Replaced all logos with logos from Jasmeet_181.
-Added support for LogoManager.</VersionDescription>
+    <VersionDescription>Move to GitHub</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
-    <OnlineLocation>https://mediaportal-israel-dvb-t-logos.googlecode.com/files/IsraelLogos-{VERSION}.MPE1</OnlineLocation>
-    <ReleaseDate>2010-06-25T19:14:51</ReleaseDate>
+    <OnlineLocation>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/builds/IsraelLogos-{VERSION}.MPE1</OnlineLocation>
+    <ReleaseDate>2015-04-01T19:14:51</ReleaseDate>
     <Tags>logos</Tags>
     <Location>..\builds\IsraelLogos-MAJOR.MINOR.BUILD.REVISION.MPE1</Location>
     <Params>
@@ -276,7 +275,7 @@ Added support for LogoManager.</VersionDescription>
           <Description>The icon file of the package (jpg,png,bmp)</Description>
         </SectionParam>
         <SectionParam Name="Online Icon">
-          <Value>http://code.google.com/p/mediaportal-israel-dvb-t-logos/logo?cct=1279396079</Value>
+          <Value>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/logo.png</Value>
           <ValueType>String</ValueType>
           <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
         </SectionParam>
@@ -288,9 +287,9 @@ Added support for LogoManager.</VersionDescription>
  If have .dll extension used like MP plugin configuration</Description>
         </SectionParam>
         <SectionParam Name="Online Screenshots">
-          <Value>https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image1s.png
+          <Value>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/Image1s.png
 ;
-https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image2s.png</Value>
+https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/Image2s.png</Value>
           <ValueType>String</ValueType>
           <Description>Online stored screenshot urls separated by ; </Description>
         </SectionParam>
