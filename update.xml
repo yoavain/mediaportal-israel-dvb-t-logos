@@ -28,9 +28,9 @@
         <Name>Israel DVB-T logos</Name>
         <Id>0ef9caed-3e62-4c2c-a1db-8b429d6bc388</Id>
         <Author>yoavain</Author>
-        <HomePage>http://code.google.com/p/mediaportal-israel-dvb-t-logos/</HomePage>
+        <HomePage>https://github.com/yoavain/mediaportal-israel-dvb-t-logos</HomePage>
         <ForumPage>http://forum.team-mediaportal.com/skins-50/israeli-dvb-t-tv-channels-logos-plugin-84605/</ForumPage>
-        <UpdateUrl>http://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/update.xml</UpdateUrl>
+        <UpdateUrl>https://raw.githubusercontent.com/yoavain/mediaportal-israel-dvb-t-logos/master/update.xml</UpdateUrl>
         <Version>
           <Major>1</Major>
           <Minor>0</Minor>
@@ -43,7 +43,7 @@
 </ExtensionDescription>
         <VersionDescription />
         <DevelopmentStatus>Stable</DevelopmentStatus>
-        <OnlineLocation>https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/IsraelLogos v.1.0.0.1.mpe1</OnlineLocation>
+        <OnlineLocation>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/IsraelLogos v.1.0.0.1.mpe1</OnlineLocation>
         <ReleaseDate>2010-06-25T19:14:51</ReleaseDate>
         <Tags>logos</Tags>
         <Location>..\IsraelLogos v.[Version].mpe1</Location>
@@ -55,7 +55,7 @@
               <Description>The icon file of the package (jpg,png,bmp)</Description>
             </SectionParam>
             <SectionParam Name="Online Icon">
-              <Value>http://code.google.com/p/mediaportal-israel-dvb-t-logos/logo?cct=1279396079</Value>
+              <Value>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/logo.png</Value>
               <ValueType>String</ValueType>
               <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
             </SectionParam>
@@ -67,9 +67,9 @@
  If have .dll extension used like MP plugin configuration</Description>
             </SectionParam>
             <SectionParam Name="Online Screenshots">
-              <Value>https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image1s.png
+              <Value>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/Image1s.png
 ;
-https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image2s.png</Value>
+https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/Image2s.png</Value>
               <ValueType>String</ValueType>
               <Description>Online stored screenshot urls separated by ; </Description>
             </SectionParam>
@@ -116,9 +116,9 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
         <Name>Israel DVB-T logos</Name>
         <Id>0ef9caed-3e62-4c2c-a1db-8b429d6bc388</Id>
         <Author>yoavain</Author>
-        <HomePage>http://code.google.com/p/mediaportal-israel-dvb-t-logos/</HomePage>
+        <HomePage>https://github.com/yoavain/mediaportal-israel-dvb-t-logos</HomePage>
         <ForumPage>http://forum.team-mediaportal.com/skins-50/israeli-dvb-t-tv-channels-logos-plugin-84605/</ForumPage>
-        <UpdateUrl>http://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/update.xml</UpdateUrl>
+        <UpdateUrl>https://raw.githubusercontent.com/yoavain/mediaportal-israel-dvb-t-logos/master/update.xml</UpdateUrl>
         <Version>
           <Major>1</Major>
           <Minor>0</Minor>
@@ -131,7 +131,7 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
 </ExtensionDescription>
         <VersionDescription>Updates homepage. Updated forum url. Updated online screenshots. Updated online icon</VersionDescription>
         <DevelopmentStatus>Stable</DevelopmentStatus>
-        <OnlineLocation>https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/IsraelLogos v.1.0.0.2.mpe1</OnlineLocation>
+        <OnlineLocation>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/IsraelLogos v.1.0.0.2.mpe1</OnlineLocation>
         <ReleaseDate>2010-06-25T19:14:51</ReleaseDate>
         <Tags>logos</Tags>
         <Location>..\IsraelLogos v.[Version].mpe1</Location>
@@ -143,7 +143,7 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
               <Description>The icon file of the package (jpg,png,bmp)</Description>
             </SectionParam>
             <SectionParam Name="Online Icon">
-              <Value>http://code.google.com/p/mediaportal-israel-dvb-t-logos/logo?cct=1279396079</Value>
+              <Value>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/logo.png</Value>
               <ValueType>String</ValueType>
               <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
             </SectionParam>
@@ -155,9 +155,9 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
  If have .dll extension used like MP plugin configuration</Description>
             </SectionParam>
             <SectionParam Name="Online Screenshots">
-              <Value>https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image1s.png
+              <Value>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/Image1s.png
 ;
-https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image2s.png</Value>
+https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/Image2s.png</Value>
               <ValueType>String</ValueType>
               <Description>Online stored screenshot urls separated by ; </Description>
             </SectionParam>
@@ -260,9 +260,9 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
         <Name>Israel DVB-T logos</Name>
         <Id>0ef9caed-3e62-4c2c-a1db-8b429d6bc388</Id>
         <Author>yoavain</Author>
-        <HomePage>http://code.google.com/p/mediaportal-israel-dvb-t-logos/</HomePage>
+        <HomePage>https://github.com/yoavain/mediaportal-israel-dvb-t-logos</HomePage>
         <ForumPage>http://forum.team-mediaportal.com/skins-50/israeli-dvb-t-tv-channels-logos-plugin-84605/</ForumPage>
-        <UpdateUrl>http://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/update.xml</UpdateUrl>
+        <UpdateUrl>https://raw.githubusercontent.com/yoavain/mediaportal-israel-dvb-t-logos/master/update.xml</UpdateUrl>
         <Version>
           <Major>1</Major>
           <Minor>0</Minor>
@@ -275,7 +275,7 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
 </ExtensionDescription>
         <VersionDescription>Added options for channels 2,10,99</VersionDescription>
         <DevelopmentStatus>Stable</DevelopmentStatus>
-        <OnlineLocation>https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/IsraelLogos v.1.0.0.3.mpe1</OnlineLocation>
+        <OnlineLocation>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/IsraelLogos v.1.0.0.3.mpe1</OnlineLocation>
         <ReleaseDate>2010-06-25T19:14:51</ReleaseDate>
         <Tags>logos</Tags>
         <Location>..\IsraelLogos v.[Version].mpe1</Location>
@@ -287,7 +287,7 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
               <Description>The icon file of the package (jpg,png,bmp)</Description>
             </SectionParam>
             <SectionParam Name="Online Icon">
-              <Value>http://code.google.com/p/mediaportal-israel-dvb-t-logos/logo?cct=1279396079</Value>
+              <Value>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/logo.png</Value>
               <ValueType>String</ValueType>
               <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
             </SectionParam>
@@ -299,9 +299,9 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
  If have .dll extension used like MP plugin configuration</Description>
             </SectionParam>
             <SectionParam Name="Online Screenshots">
-              <Value>https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image1s.png
+              <Value>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/Image1s.png
 ;
-https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image2s.png</Value>
+https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/Image2s.png</Value>
               <ValueType>String</ValueType>
               <Description>Online stored screenshot urls separated by ; </Description>
             </SectionParam>
@@ -424,9 +424,9 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
         <Name>Israel DVB-T logos</Name>
         <Id>0ef9caed-3e62-4c2c-a1db-8b429d6bc388</Id>
         <Author>yoavain</Author>
-        <HomePage>http://code.google.com/p/mediaportal-israel-dvb-t-logos/</HomePage>
+        <HomePage>https://github.com/yoavain/mediaportal-israel-dvb-t-logos</HomePage>
         <ForumPage>http://forum.team-mediaportal.com/skins-50/israeli-dvb-t-tv-channels-logos-plugin-84605/</ForumPage>
-        <UpdateUrl>http://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/update.xml</UpdateUrl>
+        <UpdateUrl>https://raw.githubusercontent.com/yoavain/mediaportal-israel-dvb-t-logos/master/update.xml</UpdateUrl>
         <Version>
           <Major>1</Major>
           <Minor>1</Minor>
@@ -446,7 +446,7 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
         <Params>
           <Items>
             <SectionParam Name="Online Icon">
-              <Value>http://code.google.com/p/mediaportal-israel-dvb-t-logos/logo?cct=1279396079</Value>
+              <Value>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/logo.png</Value>
               <ValueType>String</ValueType>
               <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
             </SectionParam>
@@ -458,9 +458,9 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
  If have .dll extension used like MP plugin configuration</Description>
             </SectionParam>
             <SectionParam Name="Online Screenshots">
-              <Value>https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image1s.png
+              <Value>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/Image1s.png
 ;
-https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image2s.png</Value>
+https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/Image2s.png</Value>
               <ValueType>String</ValueType>
               <Description>Online stored screenshot urls separated by ; </Description>
             </SectionParam>
@@ -599,9 +599,9 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
         <Name>Israel DVB-T logos</Name>
         <Id>0ef9caed-3e62-4c2c-a1db-8b429d6bc388</Id>
         <Author>yoavain</Author>
-        <HomePage>http://code.google.com/p/mediaportal-israel-dvb-t-logos/</HomePage>
+        <HomePage>https://github.com/yoavain/mediaportal-israel-dvb-t-logos</HomePage>
         <ForumPage>http://forum.team-mediaportal.com/skins-50/israeli-dvb-t-tv-channels-logos-plugin-84605/</ForumPage>
-        <UpdateUrl>http://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/update.xml</UpdateUrl>
+        <UpdateUrl>https://raw.githubusercontent.com/yoavain/mediaportal-israel-dvb-t-logos/master/update.xml</UpdateUrl>
         <Version>
           <Major>1</Major>
           <Minor>1</Minor>
@@ -614,14 +614,14 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
 </ExtensionDescription>
         <VersionDescription>Added Channel 23</VersionDescription>
         <DevelopmentStatus>Stable</DevelopmentStatus>
-        <OnlineLocation>https://mediaportal-israel-dvb-t-logos.googlecode.com/files/IsraelLogos-1.1.1.0.MPE1</OnlineLocation>
+        <OnlineLocation>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/builds/IsraelLogos-1.1.1.0.MPE1</OnlineLocation>
         <ReleaseDate>2013-08-21T21:59:19.9684129+03:00</ReleaseDate>
         <Tags>logos</Tags>
         <Location>..\builds\IsraelLogos-MAJOR.MINOR.BUILD.REVISION.MPE1</Location>
         <Params>
           <Items>
             <SectionParam Name="Online Icon">
-              <Value>http://code.google.com/p/mediaportal-israel-dvb-t-logos/logo?cct=1279396079</Value>
+              <Value>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/logo.png</Value>
               <ValueType>String</ValueType>
               <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
             </SectionParam>
@@ -633,9 +633,9 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
  If have .dll extension used like MP plugin configuration</Description>
             </SectionParam>
             <SectionParam Name="Online Screenshots">
-              <Value>https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image1s.png
+              <Value>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/Image1s.png
 ;
-https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image2s.png</Value>
+https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/Image2s.png</Value>
               <ValueType>String</ValueType>
               <Description>Online stored screenshot urls separated by ; </Description>
             </SectionParam>
@@ -655,7 +655,7 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
       </ProjectSettings>
       <IsSkin>false</IsSkin>
     </PackageClass>
-        <PackageClass>
+    <PackageClass>
       <Version>2.0</Version>
       <Groups>
         <Items>
@@ -742,9 +742,9 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
         <Name>Israel DVB-T logos</Name>
         <Id>0ef9caed-3e62-4c2c-a1db-8b429d6bc388</Id>
         <Author>yoavain</Author>
-        <HomePage>http://code.google.com/p/mediaportal-israel-dvb-t-logos/</HomePage>
+        <HomePage>https://github.com/yoavain/mediaportal-israel-dvb-t-logos</HomePage>
         <ForumPage>http://forum.team-mediaportal.com/skins-50/israeli-dvb-t-tv-channels-logos-plugin-84605/</ForumPage>
-        <UpdateUrl>http://mediaportal-israel-dvb-t-logos.googlecode.com/svn/trunk/update.xml</UpdateUrl>
+        <UpdateUrl>https://raw.githubusercontent.com/yoavain/mediaportal-israel-dvb-t-logos/master/update.xml</UpdateUrl>
         <Version>
           <Major>1</Major>
           <Minor>2</Minor>
@@ -758,14 +758,14 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
         <VersionDescription>Replaced all logos with logos from Jasmeet_181.
 Added support for LogoManager.</VersionDescription>
         <DevelopmentStatus>Stable</DevelopmentStatus>
-        <OnlineLocation>https://mediaportal-israel-dvb-t-logos.googlecode.com/files/IsraelLogos-1.2.0.0.MPE1</OnlineLocation>
+        <OnlineLocation>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/builds/IsraelLogos-1.2.0.0.MPE1</OnlineLocation>
         <ReleaseDate>2014-01-01T23:22:24.3286643+02:00</ReleaseDate>
         <Tags>logos</Tags>
         <Location>..\builds\IsraelLogos-MAJOR.MINOR.BUILD.REVISION.MPE1</Location>
         <Params>
           <Items>
             <SectionParam Name="Online Icon">
-              <Value>http://code.google.com/p/mediaportal-israel-dvb-t-logos/logo?cct=1279396079</Value>
+              <Value>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/logo.png</Value>
               <ValueType>String</ValueType>
               <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
             </SectionParam>
@@ -777,9 +777,9 @@ Added support for LogoManager.</VersionDescription>
  If have .dll extension used like MP plugin configuration</Description>
             </SectionParam>
             <SectionParam Name="Online Screenshots">
-              <Value>https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image1s.png
+              <Value>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/Image1s.png
 ;
-https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image2s.png</Value>
+https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/Image2s.png</Value>
               <ValueType>String</ValueType>
               <Description>Online stored screenshot urls separated by ; </Description>
             </SectionParam>
@@ -799,6 +799,148 @@ https://mediaportal-israel-dvb-t-logos.googlecode.com/svn/wiki/screenshots/Image
       </ProjectSettings>
       <IsSkin>false</IsSkin>
     </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Channel 1">
+            <DisplayName>Channel 1</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Channel 1</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Channel 2">
+            <DisplayName>Channel 2</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Channel 2</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Channel 10">
+            <DisplayName>Channel 10</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Channel 10</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Channel 33">
+            <DisplayName>Channel 33</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Channel 33</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Channel 99">
+            <DisplayName>Channel 99</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Channel 99</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Channel 23">
+            <DisplayName>Channel 23</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Channel 23</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items />
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>Israel DVB-T logos</Name>
+        <Id>0ef9caed-3e62-4c2c-a1db-8b429d6bc388</Id>
+        <Author>yoavain</Author>
+        <HomePage>https://github.com/yoavain/mediaportal-israel-dvb-t-logos</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/skins-50/israeli-dvb-t-tv-channels-logos-plugin-84605/</ForumPage>
+        <UpdateUrl>https://raw.githubusercontent.com/yoavain/mediaportal-israel-dvb-t-logos/master/update.xml</UpdateUrl>
+        <Version>
+          <Major>1</Major>
+          <Minor>2</Minor>
+          <Build>1</Build>
+          <Revision>0</Revision>
+        </Version>
+        <ExtensionDescription>This package will copy all logos of Israeli TV stations broacasted on DVB-T
 
+
+</ExtensionDescription>
+        <VersionDescription>Move to GitHub</VersionDescription>
+        <DevelopmentStatus>Stable</DevelopmentStatus>
+        <OnlineLocation>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/builds/IsraelLogos-1.2.1.0.MPE1</OnlineLocation>
+        <ReleaseDate>2015-04-01T22:23:45.3207817+03:00</ReleaseDate>
+        <Tags>logos</Tags>
+        <Location>..\builds\IsraelLogos-MAJOR.MINOR.BUILD.REVISION.MPE1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/logo.png</Value>
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value>https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/Image1s.png
+;
+https://github.com/yoavain/mediaportal-israel-dvb-t-logos/raw/master/package/Image2s.png</Value>
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>NO</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
   </Items>
 </ExtensionCollection>
